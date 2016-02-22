@@ -10,7 +10,7 @@ def createArgParser():
     Parser.add_argument("-i", "--in",
                   dest="inputPath",
           default=False,
-                  help="folder on which to run the script")
+                  help="tournament stats folder")
 
     Parser.add_argument("-u", "--username",
                   dest="userName",
